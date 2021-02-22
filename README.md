@@ -40,8 +40,8 @@ Once all this is configured, the steps to compile the system are:
 
 When the whole process is finished you can create the installation packages or the sd_imagen.bin with the following commands:
 
-~/toolchain/updaters $ ./create_kernel_m.sh (this creates a kernel update package)
+~/toolchain/updaters $ ./create_kernel_rg280m.sh (this creates a kernel update package)
 
-~/toolchain/updaters $ ./create_updater_m.sh (this creates a complete system update package)
+~/toolchain/updaters $ ./create_updater_rg280m.sh (this creates a complete system update package)
 
-~/toolchain/updaters/imager_m $ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
+~/toolchain/updaters/imager_rg280m $ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
